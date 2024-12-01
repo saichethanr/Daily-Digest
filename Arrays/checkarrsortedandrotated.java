@@ -3,6 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class checkarrsortedandrotated {
+    //(96/109)
     public boolean check(int[] nums) {
         int [] arr = Arrays.copyOf(nums,nums.length);
         Arrays.sort(nums);
